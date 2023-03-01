@@ -1,14 +1,11 @@
 import React from "react";
-import img from "../assets/images/contact-img.svg";
+import img from "../assets/images/contact.gif";
 
 function Contact() {
   return (
     <>
-      <div id="contact" className="contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full">
-        <div className="wrapper flex justify-center  py-16 gap-52 lg:py-12">
-          <div className="imgbox lg:hidden">
-            <img className="w-[550px] h-full" src={img} alt="" />
-          </div>
+      <div id="contact" style={{ backgroundImage: `url(${img})`, backgroundSize: "cover" }} className="contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full">
+        <div className="wrapper flex justify-center py-16 gap-52 lg:py-12">
           <div className="content-box">
             <h1 className="text-white font-bold text-4xl">Get In Touch</h1>
             <form action="" className="flex flex-col ">

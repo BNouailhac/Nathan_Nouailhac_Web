@@ -50,14 +50,11 @@ function Navbar() {
 
           <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
             
-            <a href="https://twitter.com/Craniumfull" target="_blank">
-              <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a> 
-            <a href="https://www.tiktok.com/@craniumfull_real" target="_blank">
-              <i className="fa-brands fa-tiktok border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
             <a href="https://www.linkedin.com/in/nathan-nouailhac-08a680175/" target="_blank">
               <i className="fa-brands fa-linkedin border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+            </a>
+            <a href="https://www.tiktok.com/@craniumfull_real" target="_blank">
+              <i className="fa-brands fa-tiktok border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
             <a href="https://www.twitch.tv/craniumfull" target="_blank">
               <i className="fa-brands fa-twitch border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
