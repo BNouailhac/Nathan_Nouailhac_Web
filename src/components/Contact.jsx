@@ -21,13 +21,11 @@ function Contact() {
               </div>
               <div style={{ textAlign: "center", borderRadius: "30px" }} className="bg-[#171717] btn py-4 px-3">
                 <p className="text-white text-max font-bold" style={{ marginBottom: "10px", fontSize: "15.5px" }}>Sur discord :</p>
-                <a href="https://twitter.com/Craniumfull" target="_blank">
                   <button style={{ fontSize: "15px", color: "#737373", width: "11.5rem", height: "6rem", borderRadius: "10px" }} className="border-[1px] border-white border-solid hover:bg-white hover:text-black font-bold">
                     <i style={{ fontSize: "30px", marginBottom: "5px" }} className="fa-brands fa-discord"></i>
                     <br></br>
                     Craniumfull#9815
                   </button>
-                </a>
               </div>
               <div style={{ textAlign: "center", borderRadius: "30px" }} className="bg-[#171717] btn py-4 px-3">
                 <p className="text-white text-max font-bold" style={{ marginBottom: "10px", fontSize: "15.5px" }}>Sur mon adresse  email :</p>

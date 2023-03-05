@@ -73,6 +73,7 @@ swiper {
   position: absolute;
   width: 40rem;
   display: none;
+  border-bottom-right-radius: 55%;
 }
 
 .button-home {
@@ -110,6 +111,12 @@ swiper {
 }
 
 @media (min-width: 900px) {
+  .nathanHome {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
   .respAudio {
     display: flex;
   }
@@ -119,12 +126,6 @@ swiper {
     margin-bottom: 0px;
   }
 
-  .nathanHome {
-    display: block;
-  }
-}
-
-@media (min-width: 1024px) {
   .text-max {
     max-width: 32rem;
   }

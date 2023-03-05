@@ -4,20 +4,23 @@ import "../styles.css";
 import ProjectCard from "./sub-components/ProjectCard";
 import logo1 from '../assets/images/logo1.webp';
 import _audio1 from '../assets/sound/Predefamille.ogg';
-import logo2 from '../assets/images/logo2.png';
+import logo2 from '../assets/images/logo2.webp';
 import _audio2 from '../assets/sound/PandaRouxCCC.ogg';
-import logo3 from '../assets/images/logo3.jpg';
+import logo3 from '../assets/images/logo3.webp';
 import _audio3 from '../assets/sound/SniperTF2CCC.ogg';
 import logo4 from '../assets/images/logo4.webp';
 import _audio4 from '../assets/sound/DrBoeufnot.ogg';
-import logo5 from '../assets/images/logo5.jpg';
+import logo5 from '../assets/images/logo5.webp';
 import _audio5 from '../assets/sound/Oz.mp3';
-import logo6 from '../assets/images/logo6.png';
+import logo6 from '../assets/images/logo6.webp';
 import _audio6 from '../assets/sound/CommissaireMartialChevalier.ogg';
-import logo7 from '../assets/images/logo7.png';
+import logo7 from '../assets/images/logo7.webp';
 import _audio7 from '../assets/sound/Khan.mp3';
-import logo8 from '../assets/images/logo8.png';
+import logo8 from '../assets/images/logo8.webp';
 import _audio8 from '../assets/sound/CliffsideYannis.mp3';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+import { Pagination } from "swiper";
 
 function Audio() {
 
@@ -79,7 +82,59 @@ function Audio() {
         <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
           Voici plusieurs extraits audio de moi interprétant des personages dans le cadre de candidature de project sur le site <a style={{ color: '#02A6FF' }} href="https://www.castingcall.club/craniumfull" className="active"> castingcall</a>.
         </p>
-        {projects.map((item, i) => <ProjectCard key={i} item={item} />)}
+        <div className="box flex justify-between items-center bg-[#171717] my-6">
+          <Swiper
+            breakpoints={{
+              // when window width is >= 640px
+              640: {
+                slidesPerView: 1,
+              },
+              // when window width is >= 768px
+              768: {
+                slidesPerView: 2,
+              },
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Navigation, Pagination]}
+          >
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={0} item={projects[0]} />
+            </SwiperSlide>
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={1} item={projects[1]} />
+            </SwiperSlide>
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={2} item={projects[2]} />
+            </SwiperSlide>
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={3} item={projects[3]} />
+            </SwiperSlide>
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={4} item={projects[4]} />
+            </SwiperSlide>
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={5} item={projects[5]} />
+            </SwiperSlide>
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={6} item={projects[6]} />
+            </SwiperSlide>
+            <SwiperSlide className=" bg-[#171717]">
+              {" "}
+              <ProjectCard key={7} item={projects[7]} />
+            </SwiperSlide>
+          </Swiper>
+          
+        </div>
       </div>
     </>
   );
