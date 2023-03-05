@@ -7,7 +7,7 @@ function Contact() {
       <div id="contact" style={{ backgroundImage: `url(${img})`, backgroundSize: "cover", backgroundPosition: "center" }} className="contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full">
         <div className="wrapper flex justify-center py-10 gap-52 lg:py-12">
           <div className="content-box">
-            <h1 className="text-white font-bold text-4xl bg-[#171717] p-1.5" style={{ textAlign: "center", borderRadius: "30px", maxWidth: "18.5rem", margin: "auto" }}>Contactez moi :</h1>
+            <h1 className="text-white font-bold text-4xl bg-[#171717] p-1.5" style={{ textAlign: "center", borderRadius: "30px", maxWidth: "18.5rem", margin: "auto" }}>Contactez-moi :</h1>
             <div className="grid grid-cols-3 p-8 gap-6 tl:grid-cols-1 ">
               <div style={{ textAlign: "center", borderRadius: "30px" }} className="bg-[#171717] btn py-4 px-3">
                 <p className="text-white text-max font-bold" style={{ marginBottom: "10px", fontSize: "15.5px" }}>Sur twitter :</p>

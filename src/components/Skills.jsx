@@ -92,7 +92,7 @@ function Skills() {
             </div>
           </div>
           <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
-            Je dispose d'une salle insonorisé pour réalisé mes enregistrements et je peux également me déplacer dans le studio d’enregistrement de votre choix si besoin.
+            Je dispose d'une salle insonorisée pour réaliser mes enregistrements et je peux également me déplacer dans le studio d’enregistrement de votre choix si besoin.
           </p>
         </div>
       </div>
