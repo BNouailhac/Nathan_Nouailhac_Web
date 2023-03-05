@@ -54,10 +54,14 @@ swiper {
 
 .video-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 50%;
   position: relative;
   height: 0;
   
+}
+
+.text-resp {
+  display: none;
 }
 
 .responsive-home {
@@ -73,7 +77,7 @@ swiper {
 
 .button-home {
   position: fixed;
-  bottom: 35px;
+  bottom: 55px;
   z-index: 10;
   right: 40px;
 }
@@ -97,6 +101,12 @@ swiper {
 .logoAudio {
   margin-left: 30%;
   margin-bottom: 5px;
+}
+
+@media (min-width: 500px) {
+  .text-resp {
+    display: block;
+  }
 }
 
 @media (min-width: 900px) {
@@ -129,6 +139,7 @@ swiper {
   }
     .video-responsive {
       width: 25em;
+      padding-bottom: 56.25%;
     }
 
   .responsive-home {

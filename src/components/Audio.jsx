@@ -74,7 +74,7 @@ function Audio() {
 
   return (
     <>
-      <div id="audio" className="projects  bg-[#171717] text-white py-10">
+      <div id="audio" style={{ paddingTop: "0rem" }} className="projects  bg-[#171717] text-white py-10">
         <h1 className="text-center text-4xl font-bold py-6">Extrait Audio</h1>
         <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
           Voici plusieurs extraits audio de moi interprétant des personages dans le cadre de candidature de project sur le site <a style={{ color: '#02A6FF' }} href="https://www.castingcall.club/craniumfull" className="active"> castingcall</a>.
