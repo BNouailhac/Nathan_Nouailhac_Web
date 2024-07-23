@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 import "../styles.css"
 import YoutubeEmbed from "./sub-components/YoutubeEmbed";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import "../styles.css";
 
 
 function Header() {
@@ -27,7 +27,7 @@ function Header() {
             </p>
             <div className="btn">
               <AnchorLink href="#contact">
-                <button className=' border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-2 rounded-2xl'>Prenons contact <i className="fa-solid fa-arrow-right text-lg  p-[2px] "></i></button>
+                <button className='border-2 border-[#b0aaaa] text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-2 rounded-full transition-colors duration-300 hover:bg-[linear-gradient(90deg,#38097a,#b004b0)] hover:border-[#a06a8e]'>Prenons contact   <i className="fa-solid fa-comment-dots text-lg  p-[2px] "></i></button>
               </AnchorLink>
             </div>
           </div>
