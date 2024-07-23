@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('./assets/fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf') format('truetype'),
+        url('./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
 swiper {
   width: 100%;
   height: 100%;

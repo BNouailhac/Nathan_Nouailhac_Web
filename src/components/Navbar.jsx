@@ -35,15 +35,15 @@ function Navbar() {
           <ul className="flex gap-10 text-2xl mr-4 lg:flex-col lg:gap-6 ">
             
             <li className="bla nav-icon">
-              <i className="fa-solid fa-microphone resp-icon"></i>
-              <AnchorLink href="#skills">Compétence</AnchorLink>
+              {/* <i className="fa-solid fa-microphone resp-icon"></i> */}
+              <AnchorLink href="#skills">Compétences</AnchorLink>
             </li>
             <li className="bla nav-icon">
-              <i className="fa-brands fa-youtube resp-icon"></i>
+              {/* <i className="fa-brands fa-youtube resp-icon"></i> */}
               <AnchorLink href="#projects">Vidéo</AnchorLink>
             </li>
             <li className="bla nav-icon">
-              <i className="fa-solid fa-headphones resp-icon"></i>
+              {/* <i className="fa-solid fa-headphones resp-icon"></i> */}
               <AnchorLink href="#audio">Audio</AnchorLink>
             </li>
           </ul>
@@ -62,9 +62,9 @@ function Navbar() {
           </div>
           <div className="btn">
             <AnchorLink href="#contact">
-              <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
-                Prenons contact
-              </button>
+            <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold rounded-full">
+  Me contacter
+</button>
             </AnchorLink>
           </div>
         </nav>

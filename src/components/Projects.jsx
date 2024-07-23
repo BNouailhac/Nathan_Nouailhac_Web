@@ -37,9 +37,9 @@ function Projects() {
       <div id="projects" className="projects  bg-[#171717] text-white py-10">
         <h1 className="text-center text-4xl font-bold py-6">Projets vidéo</h1>
         <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
-          Ces dernières années, j'ai eu l'occasion de m'expérimenter au doublage en participant à de nombreux projets indépendants.
+            Ces dernières années, j'ai eu l'opportunité de me perfectionner dans le domaine du doublage en participant à de nombreux projets indépendants.
         </p>
-        <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">Voici quelques-uns d'entre eux :</p>
+        <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">Voici quelques-uns de ces projets :</p>
 
         <div className="grid grid-cols-3 p-10 gap-8 lg:grid-cols-2 tl:grid-cols-1 ">
           {projects.map((item, i) =>
