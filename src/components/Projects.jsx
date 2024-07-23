@@ -8,11 +8,11 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      video: "KABJ1p-Dc10",
+      video: "pAC47sLG0Jo",
     },
     {
       id: 2,
-      video: "cGQgN6GueHs",
+      video: "mImFz8mkaHo",
     },
     {
       id: 3,
