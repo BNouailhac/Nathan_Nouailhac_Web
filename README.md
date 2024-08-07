@@ -37,4 +37,4 @@ your preferred browser.
 - Baptiste NOUAILHAC
 - Siyam MOHAMED DHOIFFIR
 
-![Link to website](nathan-nouailhac.firebaseapp.com/)
+Visit our Firebase-hosted site at this link : ![Link to website](htps://nathan-nouailhac.firebaseapp.com/)
