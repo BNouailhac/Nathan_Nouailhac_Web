@@ -27,8 +27,10 @@ function Header() {
             </p>
             <div className="btn">
               <AnchorLink href="#contact">
-                <button className='border-2 border-[#b0aaaa] text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-2 rounded-full transition-colors duration-300 hover:bg-[linear-gradient(90deg,#38097a,#b004b0)] hover:border-[#a06a8e]'>Prenons contact   <i className="fa-solid fa-comment-dots text-lg  p-[2px] "></i></button>
-              </AnchorLink>
+                <button className='flex items-center justify-center border-2 border-[#b0aaaa] text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-2 rounded-full transition-colors duration-300 hover:bg-[linear-gradient(90deg,#38097a,#b004b0)] hover:border-[#a06a8e]'>
+                    Prenons contact <i className="fa-solid fa-comment-dots text-lg ml-2"></i>
+                </button>
+               </AnchorLink>
             </div>
           </div>
           

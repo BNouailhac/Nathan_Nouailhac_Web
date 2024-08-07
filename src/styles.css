@@ -191,3 +191,73 @@ swiper {
   width: 100%;
   position: absolute;
 }
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Texte */
+.left-column {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Réseaux sociaux */
+.right-column {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-email, .logo-discord, .logo-x {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0;
+}
+
+/* Liens */
+.right-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-column ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.right-column ul li img {
+    margin-right: 10px;
+}
+
+.right-column ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.right-column ul li a:hover {
+    color: #007bff;
+}
