@@ -10,29 +10,29 @@ function Contact() {
     <>
       <div id="contact" style={{ backgroundImage: `url(${img})`, backgroundSize: "cover", backgroundPosition: "center" }} className="contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full">
         <div className="wrapper flex justify-center py-10 gap-52 lg:py-12">
-            <div className="box flex">
-                    <div style={{ display:"flex", flexDirection:"column", justifyContent:"center" }} className="left-column">
+            <div className="box-contact flex">
+                    <div style={{ display:"flex", flexDirection:"column", justifyContent:"center", background: "linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1))" }} className="left-column">
                         <p style={{ fontSize: "3rem" }}>Me contacter.</p>
-                        <p style={{ fontSize: "1.5rem" }}>Contactez moi via mes réseaux sociaux ou par email.</p>
+                        <p style={{ fontSize: "1rem" }}>Contactez moi via mes réseaux sociaux ou par email.</p>
                     </div>
-                    <div style={{ display:"flex", flexDirection:"column", justifyContent:"center" }} className="right-column">
+                    <div style={{ display:"flex", flexDirection:"column", justifyContent:"center", background: "linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1))" }} className="right-column">
                         <ul className="flex flex-col space-y-2">
                             <li className="flex items-center">
                                 <a href="mailto:craniumfull@hotmail.fr" target="_blank" className="flex items-center">
                                     <img src={emailLogo} alt="Logo email" className="logo-email" />
-                                    <span className="ml-2">e-mail</span>
+                                    <span className="ml-2">craniumfull@hotmail.fr</span>
                                 </a>
                             </li>
                             <li className="flex items-center">
                                 <a href="https://discord.com/users/Craniumfull#9815" target="_blank" className="flex items-center">
                                     <img src={discordLogo} alt="Logo discord" className="logo-discord" />
-                                    <span className="ml-2">Discord</span>
+                                    <span className="ml-2">Craniumfull#9815</span>
                                 </a>
                             </li>
                             <li className="flex items-center">
                                 <a href="https://twitter.com/Craniumfull" target="_blank" className="flex items-center">
                                     <img src={xLogo} alt="Logo X" className="logo-x" />
-                                    <span className="ml-2">X</span>
+                                    <span className="ml-2">@Craniumfull</span>
                                 </a>
                             </li>
                         </ul>
