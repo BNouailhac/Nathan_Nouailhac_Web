@@ -1,6 +1,6 @@
 import React from 'react'
 import bg from "../assets/images/home.gif"
-import nathan from '../assets/images/nathan.webp';
+import nathan from '../assets/images/nathou.webp';
 import Navbar from './Navbar'
 import "../styles.css"
 import YoutubeEmbed from "./sub-components/YoutubeEmbed";
@@ -17,11 +17,12 @@ function Header() {
           <img className="nathanHome" src={nathan} alt="Une photo de Nathan Nouailhac" />;
           <div className="text-pres content lg:text-center">
             <h1 className='text-white text-4xl font-bold' style={{ marginTop: "25px" }}>Nathan Nouailhac <a style={{ color: '#02A6FF' }} href="https://twitter.com/Craniumfull"> @Craniumfull</a></h1>
-            <p className='text-white text-max py-2.5 '>Comédien de doublage, Streamer régulier, Chroniqueur et Casteur chez
-              <a style={{ color: '#02A6FF'}} href="https://twitter.com/FrenchcraftWC3" className="active"> @FrenchcraftWC3</a>.
+            <p className='text-white text-max py-2.5 '>Comédien de doublage auto-entrepreneur et Streamer
             </p>
             <p className='text-resp text-white text-max' style={{ marginBottom: "10px" }}>
               Ces dernières années, j'ai participé à de nombreux projets indépendants de doublage : web-séries, jeux vidéo et courts-métrages indé.
+              <br />
+              Je suis très impliqué au sein de la communauté des doubleurs, je suis modérateur du discord communautaire <a style={{ color: '#02A6FF' }} href="https://disboard.org/server/942827003336347688"> Let's Vox</a> (communauté de +800 membres d'entraide entre doubleurs)
               <br />
               J'ai su m'adapter rapidement à ces projets très variés et suis à l'écoute de nouvelles propositions.
             </p>
