@@ -12,7 +12,7 @@ function Contact() {
         <div className="wrapper flex justify-center py-10 gap-52 lg:py-12">
             <div className="box-contact flex">
                     <div style={{ display:"flex", flexDirection:"column", justifyContent:"center", background: "linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1))" }} className="left-column">
-                        <p style={{ fontSize: "3rem" }}>Me contacter.</p>
+                        <p style={{ fontSize: "3rem" }}>Me contacter</p>
                         <p style={{ fontSize: "1rem" }}>Contactez moi via mes réseaux sociaux ou par email.</p>
                     </div>
                     <div style={{ display:"flex", flexDirection:"column", justifyContent:"center", background: "linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1))" }} className="right-column">
