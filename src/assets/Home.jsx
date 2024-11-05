@@ -4,7 +4,7 @@ import Header from "../components/Header"
 const Contact = React.lazy(() => import("../components/Contact"));
 const Footer = React.lazy(() => import("../components/Footer"));
 const Projects = React.lazy(() => import("../components/Projects"));
-const Audio = React.lazy(() => import("../components/Audio"));
+const Twitch = React.lazy(() => import("../components/Twitch"));
 const Skills = React.lazy(() => import("../components/Skills"));
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
         <Projects />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
-        <Audio />
+        <Twitch />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <Contact />

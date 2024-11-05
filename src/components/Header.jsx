@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import bg from "../assets/images/home.gif"
 import nathan from '../assets/images/nathou.webp';
 import Navbar from './Navbar'
@@ -7,8 +7,8 @@ import YoutubeEmbed from "./sub-components/YoutubeEmbed";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "../styles.css";
 
-
 function Header() {
+
   return (
     <>
       <div id='home' style={{ backgroundImage: `url(${bg})`}} className=' bg-center bg-cover bg-no-repeat h-screen flex flex-col '>
@@ -16,13 +16,13 @@ function Header() {
         <div className="responsive-home wrapper justify-between items-center h-screen w-full px-20 lg:justify-center lg:px-6">
           <img className="nathanHome" src={nathan} alt="Une photo de Nathan Nouailhac" />;
           <div className="text-pres content lg:text-center">
-            <h1 className='text-white text-4xl font-bold' style={{ marginTop: "25px" }}>Nathan Nouailhac <a style={{ color: '#02A6FF' }} href="https://twitter.com/Craniumfull"> @Craniumfull</a></h1>
+            <h1 className='text-white text-4xl font-bold' style={{ marginTop: "25px" }}>Nathan Nouailhac <a style={{ color: '#02A6FF' }} href="https://twitter.com/Craniumfull" onMouseEnter={(e) => e.target.style.color = '#0056b3'} onMouseLeave={(e) => e.target.style.color = '#02A6FF'}> @Craniumfull</a></h1>
             <p className='text-white text-max py-2.5 '>Comédien de doublage auto-entrepreneur et Streamer
             </p>
             <p className='text-resp text-white text-max' style={{ marginBottom: "10px" }}>
               Ces dernières années, j'ai participé à de nombreux projets indépendants de doublage : web-séries, jeux vidéo et courts-métrages indé.
               <br />
-              Je suis très impliqué au sein de la communauté des doubleurs, je suis modérateur du discord communautaire <a style={{ color: '#02A6FF' }} href="https://disboard.org/server/942827003336347688"> Let's Vox</a> (communauté de +800 membres d'entraide entre doubleurs)
+              Je suis très impliqué au sein de la communauté des doubleurs, je suis modérateur du discord communautaire <a style={{ color: '#02A6FF' }} href="https://disboard.org/server/942827003336347688" onMouseEnter={(e) => e.target.style.color = '#0056b3'} onMouseLeave={(e) => e.target.style.color = '#02A6FF'}> Let's Vox</a> (communauté de +800 membres d'entraide entre doubleurs)
               <br />
               J'ai su m'adapter rapidement à ces projets très variés et suis à l'écoute de nouvelles propositions.
             </p>

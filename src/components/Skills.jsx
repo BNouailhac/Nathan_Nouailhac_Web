@@ -15,7 +15,7 @@ function Skills() {
   return (
     <>
       <div id="skills" style={{backgroundImage: `url(${bg})`}} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4 py-10">
-        <div className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
+        <div style={{ margin: "auto" }} className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px]  max-w-[1550px] lg:p-2">
           <h1 className="text-4xl ">Mes compétences</h1>
           <p className="text-lg py-3 text-[#939191]">
             Mes expériences passées me permettent d'offrir divers services :

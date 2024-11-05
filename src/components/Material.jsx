@@ -1,20 +1,16 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "../styles.css";
-import { Navigation } from "swiper";
-import { Pagination } from "swiper";
 import img from "../assets/images/tool1.webp";
 import img2 from "../assets/images/tool2.webp";
 import img3 from "../assets/images/tool3.webp";
-import bg from "../assets/images/banner-bg.webp"
 
 function Material() {
   return (
     <>
       {/* <div id="Material" style={{backgroundImage: `url(${bg})`}} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4 py-10"> */}
-        <div className="Material-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
+        <div style={{ margin: "auto" }} className="Material-wrapper text-center text-white bg-[#171717] max-w-[1400px] p-10 rounded-[50px] lg:p-2">
           <h1 className="text-4xl ">Mon matériel</h1>
           <div className="grid grid-cols-3 p-8 gap-6 tl:grid-cols-1 ">
             <div className="py-2">

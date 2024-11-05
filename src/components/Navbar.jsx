@@ -4,7 +4,6 @@ import "../styles.css";
 
 function Navbar() {
   const [durum, setDurum] = useState(true);
-  console.log(durum);
 
   window.onscroll = function () {
     scrollFunction();
@@ -44,7 +43,7 @@ function Navbar() {
             </li>
             <li className="bla nav-icon">
               {/* <i className="fa-solid fa-headphones resp-icon"></i> */}
-              <AnchorLink href="#audio">Audio</AnchorLink>
+              <AnchorLink href="#twitch">Twitch</AnchorLink>
             </li>
           </ul>
 

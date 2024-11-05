@@ -36,7 +36,7 @@ function Projects() {
     <>
       <div id="projects" className="projects  bg-[#171717] text-white py-10">
         <h1 className="text-center text-4xl font-bold py-6">Projets vidéo</h1>
-        <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">
+        <p className="text-center max-w-[1100px] lg:px-6 mx-auto text-[#939191]">
             Ces dernières années, j'ai eu l'opportunité de me perfectionner dans le domaine du doublage en participant à de nombreux projets indépendants.
         </p>
         <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191]">Voici quelques-uns de ces projets :</p>
@@ -48,6 +48,8 @@ function Projects() {
             </div>
           )}
         </div>
+        
+        <h2 className="text-center"><a style={{ color: '#02A6FF' }} href="https://www.youtube.com/@Craniumfull" onMouseEnter={(e) => e.target.style.color = '#0056b3'} onMouseLeave={(e) => e.target.style.color = '#02A6FF'} >et plus encore sur ma chaine youtube</a></h2>
       </div>
     </>
   );
